@@ -8,12 +8,11 @@ body {
 }
 
 .container {
-  width: 1920px;
-  background-color: aquamarine;
+  width: 100%;
   height: 100%;
+  background-color: aquamarine;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 .header {
@@ -21,19 +20,29 @@ body {
 }
 
 .content-container {
-  background-color: bisque;
   display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.section-a {
+  background-color: tomato;
   flex: 1;
 }
 
-.aside {
-  background-color: blue;
+.section-b {
+  background-color: pink;
   flex: 1;
 }
 
-.main {
-  background-color: blueviolet;
-  flex: 4;
+.section-c {
+  background-color: #ccc;
+  flex: 1;
+}
+
+.section-d {
+  background-color: paleturquoise;
+  flex: 1;
 }
 
 .footer {

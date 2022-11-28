@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 1920px;
+  width: 100%;
   background-color: aquamarine;
   height: 100%;
   display: flex;
@@ -26,14 +26,19 @@ body {
   flex: 1;
 }
 
-.aside {
-  background-color: blue;
+.nav {
+  background-color: pink;
   flex: 1;
 }
 
 .main {
   background-color: blueviolet;
-  flex: 4;
+  flex: 3;
+}
+
+.aside {
+  background-color: blue;
+  flex: 1;
 }
 
 .footer {
